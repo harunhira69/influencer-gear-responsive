@@ -74,6 +74,74 @@ background-repeat: no-repeat;
     align-items: center;
     gap: 100px;
 }
+.logo{
+    max-width: 1140px;
+    margin: 100px auto auto auto;
+}
+.logo-father{
+display: grid;
+grid-template-columns: repeat(7,1fr);
+gap: 60px;
+
+}
+.log{
+
+}
+.card{
+    max-width: 1140px;
+  margin: 100px auto auto auto;
+}
+.cards-title{
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: #3A3A3A;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.card-child{
+    width: 329px;
+    border: 1px solid red;
+    box-shadow: 10px 10px 10px rgba(170, 170, 170, 1);
+    padding: 16px 14px;
+ 
+
+}
+.card-child-1{
+      width: 329px;
+    border: 1px solid red;
+    box-shadow: 10px 10px 10px rgba(170, 170, 170, 1);
+    padding: 16px 14px;
+}
+.card-img{
+    border-radius: 5px;
+    width: 300px;
+    height: 256px;
+    text-align: center;
+}
+
+.card-money{
+    font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+#card-describe{
+    width: 196px;
+    color: rgba(120, 120, 133, 1);
+    font-weight: bold;
+    font-size:0.875rem;
+  
+}
+.card-rating{
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+}
+.card-father{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
 
 
 
@@ -104,6 +172,16 @@ background-repeat: no-repeat;
 .image img{
     width: 100%;
 }
+.logo-father{
+    grid-template-columns: repeat(3,1fr);
+    /* gap: 10px; */
+}
+.card-father{
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+  justify-items: center;
+}
+
 }
 
 
@@ -124,6 +202,17 @@ background-repeat: no-repeat;
     }
     .image img{
         width: 100%;
+    }
+    .logo-father{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+    .card-father{
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .card-child-1{
+         grid-column: 1 / -1;
     }
  
     
