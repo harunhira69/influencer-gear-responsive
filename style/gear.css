@@ -5,7 +5,7 @@
 header{
     max-width: 1440px;
     margin: 0 auto;
-    border: 8px solid red;
+   
    
   
 }
@@ -197,6 +197,41 @@ gap: 60px;
 }
 .feature-img img{
     width: 100%;
+}
+footer{
+    max-width: 1440px;
+    margin: 100px auto auto auto;
+    max-width: 1140px;
+    background-color: black;
+}
+.text-tittle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 50px;
+
+}
+.copyright{
+    color:#D9DBE1;
+    font-weight: bold;
+    font-size: 0.875rem;
+    margin-top: 3px;
+}
+.reserve{
+    color:#D9DBE1;
+    font-weight: bold;
+    font-size: 0.875rem;
+    margin-top: 3px
+}
+.footer-text{
+    text-align: center;
+    padding-top: 10px;
+}
+.icons i{
+color: #FFFFFF;
+margin-top: 5px;
+margin-left: 16px;
+text-align: center;
 }
 
 
